@@ -47,5 +47,7 @@ public class PaymentInitWrapper {
 		irrecoverableError = irrecoverableError == null ? error : irrecoverableError.concat(", ").concat(error);
 	}
 	
-	
+	public void resetIrrecoverableErrors() {
+		irrecoverableError = "";
+	}
 }
